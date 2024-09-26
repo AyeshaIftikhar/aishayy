@@ -241,7 +241,7 @@
                         <div class="socail-icons ">
                             <div class="item fb ">
                                 <div class="iconWidget icon " style="">
-                                    <a href="www.facebook.com/ayeshaiftikharofficial"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/ayeshaiftikharofficial"><i class="fa fa-facebook"></i></a>
                                 </div>
 
                             </div>
@@ -255,7 +255,7 @@
 
                             <div class="item ln ">
                                 <div class="iconWidget icon " style="">
-                                    <a href="www.linkedin.com/in/seayeshaiftikhar"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/seayeshaiftikhar"><i class="fa fa-linkedin"></i></a>
                                 </div>
 
                             </div>
