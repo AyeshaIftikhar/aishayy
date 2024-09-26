@@ -74,7 +74,7 @@
     <header class="blockHeader wb-header  " fixed="false">
         <div class="container boxWidget">
             <div class="logoWidget logo logoTextSettingClass     ">
-                <a href="default.php?innove" title="">
+                <a href="default.php" title="">
 
 
 
