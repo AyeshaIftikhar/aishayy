@@ -22,7 +22,7 @@ jobs:
           sudo apt-get install -y sshpass
 
       - run: |
-          sshpass -p ${{ secrets.PASSWORD }} ssh -o StrictHostKeyChecking=no -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd domains && ls -l && chmod 777 {your domaine name in hostinger} && ls -l && cd {your domaine name in hostinger}/public_html && ls -l && rm -rf * && rm -rf .git && rm -rf .github && git clone https://github.com/{github_username}/{repo_name}.git .'
+          sshpass -p ${{ secrets.PASSWORD }} ssh -o StrictHostKeyChecking=no -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd domains && ls -l && chmod 777 aishayy.com && ls -l && cd aishayy.com/public_html && ls -l && rm -rf * && rm -rf .git && rm -rf .github && git clone https://github.com/AyeshaIftikhar/aishayy.git .'
 
 
       # - name: Deploy to Hostinger
