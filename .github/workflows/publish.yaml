@@ -16,6 +16,15 @@ jobs:
       - name: Greetings
         run: echo "Hello to DevOps !"
 
+      - name: Install sshpass
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y sshpass
+
+      - run: |
+          sshpass -p ${{ secrets.PASSWORD }} ssh -o StrictHostKeyChecking=no -p ${{ secrets.PORT }} ${{ secrets.USERNAME }}@${{ secrets.HOST }} 'cd domains && ls -l && chmod 777 {your domaine name in hostinger} && ls -l && cd {your domaine name in hostinger}/public_html && ls -l && rm -rf * && rm -rf .git && rm -rf .github && git clone https://github.com/{github_username}/{repo_name}.git .'
+
+
       # - name: Deploy to Hostinger
       #   uses: annshiv/Hostinger-deployment@v2.1
     
