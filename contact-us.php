@@ -72,8 +72,8 @@
                     </span>
                 </a>
             </div>
-           
-            <div class="navbar navbar-default navbar-static-top  ">
+            <?php include 'topbar.php'; ?>
+            <!-- <div class="navbar navbar-default navbar-static-top  ">
                 <div class="navbar-header" id="729144" compid="729144" pageid="0" component-data="{}">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                         <span class="sr-only">Toggle navigation</span>
@@ -111,7 +111,7 @@
                         </li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </div>
         <div class="container header-image-text"></div>
     </header>
