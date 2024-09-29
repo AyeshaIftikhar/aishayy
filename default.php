@@ -75,12 +75,6 @@
         <div class="container boxWidget">
             <div class="logoWidget logo logoTextSettingClass     ">
                 <a href="default.php?innove" title="">
-
-
-
-
-
-
                     <span id="logoTextWrap" style="margin-top:8%;">
                         <span class="websiteLogoName"
                             style="color:#000;font-family:Open Sans;font-size:22px">aishayy</span>
@@ -88,65 +82,8 @@
                     </span>
                 </a>
             </div>
-            <div class="navbar navbar-default navbar-static-top  ">
-                <div class="navbar-header" id="729144" compid="729144" pageid="0" component-data="{}">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-
-                <div class="navWidget navbar-collapse collapse
-        
-    ">
-                    <ul class="parent-nav-ul nav navbar-nav cl-effect-1">
-                        <li class="dropdown">
-                            <a href="deafult.php" pageslug="home" linktype="Page" class="siteNavLink">
-                                HOME
-                            </a>
-                        </li>
-
-
-                        <li class="dropdown">
-                            <a href="about.php" pageslug="about" linktype="Page" class="siteNavLink">
-                                ABOUT
-                            </a>
-                        </li>
-
-
-                        <li class="dropdown">
-                            <a href="services.php" pageslug="services" linktype="Page" class="siteNavLink">
-                                SERVICES
-                            </a>
-                        </li>
-
-
-                        <li class="dropdown">
-                            <a href="gallery.php" pageslug="gallery" linktype="Page" class="siteNavLink">
-                                GALLERY
-                            </a>
-                        </li>
-
-
-                        <li class="dropdown">
-                            <a href="contact-us.php" pageslug="contact-us" linktype="Page" class="siteNavLink">
-                                CONTACT US
-                            </a>
-                        </li>
-
-
-
-                    </ul>
-                </div>
-
-            </div>
-
-
+            <?php include 'utils/topbar.php'; ?>
         </div>
-
-
         <div class="container header-image-text"></div>
     </header>
     <div id="home" class="page wb-page">
@@ -241,7 +178,8 @@
                         <div class="socail-icons ">
                             <div class="item fb ">
                                 <div class="iconWidget icon " style="">
-                                    <a href="https://www.facebook.com/ayeshaiftikharofficial"><i class="fa fa-facebook"></i></a>
+                                    <a href="https://www.facebook.com/ayeshaiftikharofficial"><i
+                                            class="fa fa-facebook"></i></a>
                                 </div>
 
                             </div>
@@ -255,7 +193,8 @@
 
                             <div class="item ln ">
                                 <div class="iconWidget icon " style="">
-                                    <a href="https://www.linkedin.com/in/seayeshaiftikhar"><i class="fa fa-linkedin"></i></a>
+                                    <a href="https://www.linkedin.com/in/seayeshaiftikhar"><i
+                                            class="fa fa-linkedin"></i></a>
                                 </div>
 
                             </div>
@@ -283,56 +222,17 @@
 
         </section>
     </div>
-    <footer class="footerBefore wb-footer  wb-footer"
-        style="background: url(//static.sitemantic.com/webbuilder/templates/bontan-zoo/images/bontan-zoo-footer.jpg) fixed no-repeat center center;position: relative; background-size: cover;">
-        <div class="container boxWidget">
-            <div class="footer-content ">
-                <div class="row ">
-                    <div class="richTextWidget col-md-3 col-sm-6 ">
-                        <h6>Company Overview</h6>
-                        <p>Reach out to Aishayy today to discuss your mobile app development needs. We are located in
-                            the vibrant city of New York and eager to collaborate on your next big project.</p>
-                    </div>
-                    <div class="richTextWidget col-md-4 col-sm-8 ">
-                        <h6>Address</h6>
-                        <p>Lahore, Punjab, Pakistan</p>
-                        <h6>Phone</h6>
-                        <p>+92 313 7128036</p>
-                    </div>
-                    <div class="richTextWidget col-md-4 col-sm-8 ">
-                        <h6>Hours</h6>
-                        <p>Monday - Sunday<br>Lunch: 12PM - 2PM<br>Dinner: 6PM - 10PM </p>
-                    </div>
-
-                </div>
-
-                <div class="row mt-50 ">
-                    <div class="richTextWidget col-md-12 col-sm-12 ">
-                        <p>Copyright &copy; 2024 All Rights Reserved | This template is made with by<strong
-                                style="color: #7575ff;"> Innove.ai</strong></p>
-                    </div>
-
-                </div>
-
-
-            </div>
-
-
-        </div>
-
-
-    </footer>
 
 
 
 
-
+    <!-- footer -->
+    <?php include 'utils/footer.php'; ?>
+    <!-- scripes -->
     <script src="https://static.sitemantic.com/webbuilder/js/lightbox/src/js/lightbox.js"></script>
-
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js"></script>
-
     <script>
         window.lazySizesConfig = window.lazySizesConfig || {};
         window.lazySizesConfig.lazyClass = 'lazy';
@@ -359,20 +259,15 @@
 
     </script>
     <script language='JavaScript' type='text/javascript'>
-
         var ecommerceConfig = {
             'bussinessAccount': '',
             'paymentGatewayUrl': ''
         }
-
         var imageBg = null;
-
         $('.dropdown').find('a').each(function () {
             $(this).attr('href', $(this).attr('href') + "?innove");
         });
     </script>
-
-
     <script>
         var AppConfig = {
 

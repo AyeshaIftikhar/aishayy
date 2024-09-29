@@ -82,7 +82,7 @@
                     </span>
                 </a>
             </div>
-            <?php include 'topbar.php'; ?>
+            <?php include 'utils/topbar.php'; ?>
         </div>
         <div class="container header-image-text"></div>
     </header>
@@ -284,7 +284,7 @@
         </section>
     </div>
     <!-- footer -->
-    <?php include 'footer.php'; ?>
+    <?php include 'utils/footer.php'; ?>
     <!-- scripes -->
     <script src="https://static.sitemantic.com/webbuilder/js/lightbox/src/js/lightbox.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/js/bootstrap.min.js"></script>
