@@ -9,15 +9,13 @@
 
     <!-- Basic Page Needs
   ================================================== -->
-    <title>HOME</title>
+    <title>Home</title>
     <meta charset="utf-8">
-    <meta name="author" content="">
+    <meta name="author" content="Ayesha Iftikhar">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="HOME">
-    <meta name="keywords" content="HOME">
-
-
-
+    <meta name="keywords"
+        content="contact us, aishayy, mobile app development, flutter app development, android apps development, ios app development, mobile app design and development, cross-platform app development, cross platform apps, ai-powered mobile apps, app development for startups, mobile app performance optimization">
     <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -71,21 +69,9 @@
             js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <header class="blockHeader wb-header  " fixed="false">
-        <div class="container boxWidget">
-            <div class="logoWidget logo logoTextSettingClass     ">
-                <a href="default.php?innove" title="">
-                    <span id="logoTextWrap" style="margin-top:8%;">
-                        <span class="websiteLogoName"
-                            style="color:#000;font-family:Open Sans;font-size:22px">aishayy</span>
-                        <span class="websiteLogoSlogan" style="color:#000;font-family:Open Sans;font-size:10px"></span>
-                    </span>
-                </a>
-            </div>
-            <?php include 'utils/topbar.php'; ?>
-        </div>
-        <div class="container header-image-text"></div>
-    </header>
+    <!-- header -->
+    <?php include 'utils/header.php'; ?>
+    <!--  -->
     <div id="home" class="page wb-page">
 
 
@@ -169,50 +155,14 @@
                         <div class="richTextWidget col-lg-12  ">
                             <p style="text-align:center;font-size: 20px;color:white !important;">Reach out to Aishayy
                                 today to discuss your mobile app development needs. We are located in the vibrant city
-                                of New York and eager to collaborate on your next big project.</p>
+                                of Lahore and eager to collaborate on your next big project.</p>
                         </div>
 
                     </div>
-
-                    <div class="col-lg-8 centered-col ">
-                        <div class="socail-icons ">
-                            <div class="item fb ">
-                                <div class="iconWidget icon " style="">
-                                    <a href="https://www.facebook.com/ayeshaiftikharofficial"><i
-                                            class="fa fa-facebook"></i></a>
-                                </div>
-
-                            </div>
-
-                            <div class="item tw ">
-                                <div class="iconWidget icon " style="">
-                                    <a href="https://www.instagram.com/aishayyy____"><i class="fa fa-instagram"></i></a>
-                                </div>
-
-                            </div>
-
-                            <div class="item ln ">
-                                <div class="iconWidget icon " style="">
-                                    <a href="https://www.linkedin.com/in/seayeshaiftikhar"><i
-                                            class="fa fa-linkedin"></i></a>
-                                </div>
-
-                            </div>
-
-                            <div class="item yt ">
-                                <div class="iconWidget icon " style="">
-                                    <a href="https://www.youtube.com/@seayeshaiftikhar"> <i
-                                            class="fa fa-youtube-play"></i></a>
-                                </div>
-
-                            </div>
-
-
-                        </div>
-
-
-                    </div>
-
+                    
+                    <!-- social mdeia -->
+                    <?php include 'utils/social-media.php'; ?>
+                    <!--  -->
 
                 </div>
 

@@ -9,15 +9,13 @@
 
     <!-- Basic Page Needs
   ================================================== -->
-    <title>SERVICES</title>
+    <title>Services</title>
     <meta charset="utf-8">
-    <meta name="author" content="">
+    <meta name="author" content="Ayesha Iftikhar">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="SERVICES">
-    <meta name="keywords" content="SERVICES">
-
-
-
+    <meta name="keywords"
+        content="contact us, aishayy, mobile app development, flutter app development, android apps development, ios app development, mobile app design and development, cross-platform app development, cross platform apps, ai-powered mobile apps, app development for startups, mobile app performance optimization">
     <meta name="twitter:card" content="summary_large_image" />
 
 
@@ -71,27 +69,10 @@
             js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <header class="blockHeader wb-header  " fixed="false">
-        <div class="container boxWidget">
-            <div class="logoWidget logo logoTextSettingClass     ">
-                <a href="default.php?innove" title="">
-                    <span id="logoTextWrap" style="margin-top:8%;">
-                        <span class="websiteLogoName"
-                            style="color:#000;font-family:Open Sans;font-size:22px">aishayy</span>
-                        <span class="websiteLogoSlogan" style="color:#000;font-family:Open Sans;font-size:10px"></span>
-                    </span>
-                </a>
-            </div>
-            <?php include 'utils/topbar.php'; ?>
-        </div>
-
-
-        <div class="container header-image-text"></div>
-    </header>
+    <!-- header -->
+    <?php include 'utils/topbar.php'; ?>
+    <!--  -->
     <div id="services" class="page wb-page">
-
-
-
         <section id="section-729076" class="
                 breadcrumb-section sec-padding-lg                 "
             style="    background-image: url(https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200);    background-repeat: no-repeat;    background-size: cover;    background-position: center center;    background-attachment: fixed;">
@@ -110,10 +91,7 @@
                         <p style="text-align:center;">Find answers to common queries about our mobile app development
                             services. If you have additional questions, feel free to reach out to us directly.</p>
                     </div>
-
                 </div>
-
-
             </div>
 
             <div class="col-lg-6 custom-col ">
@@ -214,9 +192,6 @@
                         style="    width: 100%;    margin-top: 30px;    height: 100%;"
                         data-src="//images.pexels.com/photos/574069/pexels-photo-574069.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1200&amp;w=800">
                 </div>
-
-
-
             </div>
 
 
@@ -399,8 +374,6 @@
             $(this).attr('href', $(this).attr('href') + "?innove");
         });
     </script>
-
-
     <script>
         var AppConfig = {
             'siteId': 'e3718b2f326cba8a3fc17750c6c4cee4',

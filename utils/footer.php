@@ -6,7 +6,7 @@
                 <div class="richTextWidget col-md-3 col-sm-6 ">
                     <h6>Company Overview</h6>
                     <p>Reach out to Aishayy today to discuss your mobile app development needs. We are located in
-                        the vibrant city of New York and eager to collaborate on your next big project.</p>
+                        the vibrant city of Lahore and eager to collaborate on your next big project.</p>
                 </div>
                 <div class="richTextWidget col-md-4 col-sm-8 ">
                     <h6>Address</h6>

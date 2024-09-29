@@ -9,23 +9,17 @@
 
     <!-- Basic Page Needs
   ================================================== -->
-    <title>ABOUT</title>
+    <title>About Us</title>
     <meta charset="utf-8">
-    <meta name="author" content="">
+    <meta name="author" content="Ayesha Iftikhar">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="ABOUT">
-    <meta name="keywords" content="ABOUT">
-
-
-
+    <meta name="keywords"
+        content="contact us, aishayy, mobile app development, flutter app development, android apps development, ios app development, mobile app design and development, cross-platform app development, cross platform apps, ai-powered mobile apps, app development for startups, mobile app performance optimization">
     <meta name="twitter:card" content="summary_large_image" />
 
-
-
     <!-- Mobile Specific Metas
-  ================================================== -->
-
-
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -35,13 +29,9 @@
 
     <!-- PAGE JS -->
     <!-- CSS ================================================== -->
-
     <link rel="stylesheet" href="css/combined.min.css?innove" type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//static.sitemantic.com/webbuilder/js/lightbox/src/css/lightbox.css">
-
-
-
     <link id="theme" rel="stylesheet" href="css/default.css?innove" type='text/css'>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700,800,900%7CRaleway:400,500,600&amp;display=swap"
@@ -71,32 +61,16 @@
             js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <header class="blockHeader wb-header  " fixed="false">
-        <div class="container boxWidget">
-            <div class="logoWidget logo logoTextSettingClass     ">
-                <a href="default.php" title="">
-                    <span id="logoTextWrap" style="margin-top:8%;">
-                        <span class="websiteLogoName"
-                            style="color:#000;font-family:Open Sans;font-size:22px">aishayy</span>
-                        <span class="websiteLogoSlogan" style="color:#000;font-family:Open Sans;font-size:10px"></span>
-                    </span>
-                </a>
-            </div>
-            <?php include 'utils/topbar.php'; ?>
-        </div>
-        <div class="container header-image-text"></div>
-    </header>
+    <!-- Header -->
+    <?php include 'utils/header.php'; ?>
+    <!--  -->
     <div id="about" class="page wb-page">
-
-
-
         <section id="section-729033" class="
                 breadcrumb-section sec-padding-lg                 "
             style="    background-image: url(https://images.pexels.com/photos/1192057/pexels-photo-1192057.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=627&amp;w=1200);    background-repeat: no-repeat;    background-size: cover;    background-position: center center;    background-attachment: fixed;">
             <div class="richTextWidget title-heading ">
                 <h1>About Us</h1>
             </div>
-
         </section>
         <section id="section-729035" class="
                 widget-section widget-about-02-2 theme-light-color-10                 ">
@@ -119,9 +93,6 @@
                                     <img class="lazyload img-responsive"
                                         data-src="//images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1200&amp;w=800">
                                 </div>
-
-
-
                             </div>
 
                             <div class="col-md-6 col-sm-6 ">
@@ -129,21 +100,10 @@
                                     <img class="lazyload img-responsive"
                                         data-src="//images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1200&amp;w=800">
                                 </div>
-
-
-
                             </div>
-
-
                         </div>
-
-
                     </div>
-
-
                 </div>
-
-
             </div>
 
 
@@ -157,7 +117,6 @@
                         <p>Read what our clients have to say about their experience working with Aishayy to bring their
                             mobile app ideas to life.</p>
                     </div>
-
                 </div>
 
                 <div class="row ">
@@ -182,10 +141,7 @@
                             <div class="iconWidget down-right-quotes " style="">
                                 <i class="fa fa-quote-right"></i>
                             </div>
-
                         </div>
-
-
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-sm-12 ">
@@ -208,10 +164,7 @@
                             <div class="iconWidget down-right-quotes " style="">
                                 <i class="fa fa-quote-right"></i>
                             </div>
-
                         </div>
-
-
                     </div>
 
                     <div class="col-lg-4 col-md-12 col-sm-12 ">
@@ -235,16 +188,9 @@
                             <div class="iconWidget down-right-quotes " style="">
                                 <i class="fa fa-quote-right"></i>
                             </div>
-
                         </div>
-
-
                     </div>
-
-
                 </div>
-
-
             </div>
 
 
@@ -259,9 +205,6 @@
                             <img class="lazyload img-fluid"
                                 data-src="//images.pexels.com/photos/1108572/pexels-photo-1108572.jpeg?auto=compress&amp;cs=tinysrgb&amp;fit=crop&amp;h=1200&amp;w=800">
                         </div>
-
-
-
                     </div>
 
                     <div class="col-md-7 col-sm-12 ">
@@ -271,13 +214,8 @@
                                 innovative mobile solutions for our clients. Our mission is to empower businesses with
                                 high-quality, user-friendly mobile apps that drive success.</p>
                         </div>
-
                     </div>
-
-
                 </div>
-
-
             </div>
 
 

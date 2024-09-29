@@ -9,20 +9,19 @@
 
     <!-- Basic Page Needs
   ================================================== -->
-    <title>GALLERY</title>
+    <title>Gallery</title>
     <meta charset="utf-8">
-    <meta name="author" content="">
+    <meta name="author" content="Ayesha Iftikhar">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="description" content="GALLERY">
-    <meta name="keywords" content="GALLERY">
+    <meta name="keywords"
+        content="contact us, aishayy, mobile app development, flutter app development, android apps development, ios app development, mobile app design and development, cross-platform app development, cross platform apps, ai-powered mobile apps, app development for startups, mobile app performance optimization">
     <meta name="twitter:card" content="summary_large_image" />
 
 
 
     <!-- Mobile Specific Metas
-  ================================================== -->
-
-
+    ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
@@ -36,9 +35,6 @@
     <link rel="stylesheet" href="css/combined.min.css?innove" type='text/css'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="//static.sitemantic.com/webbuilder/js/lightbox/src/css/lightbox.css">
-
-
-
     <link id="theme" rel="stylesheet" href="css/default.css?innove" type='text/css'>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Exo+2:400,500,600,700,800,900%7CRaleway:400,500,600&amp;display=swap"
@@ -68,21 +64,9 @@
             js.src = 'https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v3.0';
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
-    <header class="blockHeader wb-header  " fixed="false">
-        <div class="container boxWidget">
-            <div class="logoWidget logo logoTextSettingClass     ">
-                <a href="default.php?innove" title="">
-                    <span id="logoTextWrap" style="margin-top:8%;">
-                        <span class="websiteLogoName"
-                            style="color:#000;font-family:Open Sans;font-size:22px">aishayy</span>
-                        <span class="websiteLogoSlogan" style="color:#000;font-family:Open Sans;font-size:10px"></span>
-                    </span>
-                </a>
-            </div>
-            <?php include 'utils/topbar.php'; ?>
-        </div>
-        <div class="container header-image-text"></div>
-    </header>
+    <!-- header -->
+    <?php include 'utils/header.php'; ?>
+    <!--  -->
     <div id="gallery" class="page wb-page">
         <section id="section-729122" class="
                 breadcrumb-section sec-padding-lg                 "
@@ -168,7 +152,7 @@
                     <div class="richTextWidget col-md-3 col-sm-6 ">
                         <h6>Company Overview</h6>
                         <p>Reach out to Aishayy today to discuss your mobile app development needs. We are located in
-                            the vibrant city of New York and eager to collaborate on your next big project.</p>
+                            the vibrant city of Lahore and eager to collaborate on your next big project.</p>
                     </div>
                     <div class="richTextWidget col-md-4 col-sm-8 ">
                         <h6>Address</h6>
